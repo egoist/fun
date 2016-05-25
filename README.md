@@ -13,6 +13,9 @@ do
 
 // log
 println
+
+// variable binding
+let
 ```
 
 ## Compile to JS
