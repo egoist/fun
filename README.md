@@ -6,16 +6,19 @@
 
 ```js
 // prgram entry
-do
+do()
 
 // arithmetic
-+ - * / %
++ - * / % > < >= <= ==
 
 // log
-println
+println(foo, bar)
 
 // variable binding
-let
+let(foo, "value")
+
+// condition
+if(condition, then, else)
 ```
 
 ## Compile to JS
@@ -30,7 +33,8 @@ do(
     foo,
     +(1, 2, -(3, 4))
   ),
-  println(foo)
+  println(foo),
+  if(>(foo, 10), println("big"), println("small"))
 )
 
 `)
