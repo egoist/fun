@@ -31,11 +31,9 @@ const js_code = compile(`
 do(
   let(
     foo,
-    +(1, 2, -(3, 4))
-  ),
+    +(1, 2, -(3, 4))),
   println(foo),
-  if(>(foo, 10), println("big"), println("small"))
-)
+  if(>(foo, 10), println("big"), println("small")))
 
 `)
 
